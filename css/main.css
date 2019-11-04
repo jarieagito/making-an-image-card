@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,4 +16,31 @@ html {
   overflow: hidden;
   border: 1px solid #ccc;
   border-radius: 0 6px 6px;
+}
+
+.card-body {
+  padding: .2em 1rem;
+}
+
+.card-title {
+  margin: 0;
+  padding: .3rem 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.card-label {
+  padding: .3rem 1rem .3rem calc(1rem - 4px);
+  border-left: 4px solid green;
+  background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.card-head {
+  position: relative;
 }
